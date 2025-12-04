@@ -20,19 +20,20 @@ A real-time anonymous chat application built for instant global connections with
 <!-- BADGES -->
 
 <p>
-<a href="https://reactjs.org/">
-<img src="https://img.shields.io/badge/React-20232A%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D61DAFB" alt="React" />
-</a>
-<a href="https://firebase.google.com/">
-<img src="https://img.shields.io/badge/Firebase-039BE5%3Fstyle%3Dfor-the-badge%26logo%3DFirebase%26logoColor%3Dwhite" alt="Firebase" />
-</a>
-<a href="https://tailwindcss.com/">
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" alt="Tailwind CSS" />
-</a>
-<a href="https://vitejs.dev/">
-<img src="https://img.shields.io/badge/Vite-B73BFE%3Fstyle%3Dfor-the-badge%26logo%3Dvite%26logoColor%3DFFD62E" alt="Vite" />
-</a>
+  <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  </a>
+  <a href="https://firebase.google.com/">
+    <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </a>
+  <a href="https://vitejs.dev/">
+    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
+  </a>
 </p>
+
 
 <br />
 <br />
@@ -193,3 +194,4 @@ service cloud.firestore {
 <div align="center">
 <p>Made with ❤️ by <strong>You</strong></p>
 </div>
+
