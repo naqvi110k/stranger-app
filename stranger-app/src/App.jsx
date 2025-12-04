@@ -140,19 +140,13 @@ import { User, Shield, Ghost, ArrowRight, Search, Clock, X, Send, LogOut, Chevro
 
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA_ZyzaVP5L_J93qNTCynBh-wOBTkrEjqo",
-  authDomain: "stranger-app1.firebaseapp.com",
-  projectId: "stranger-app1",
-  storageBucket: "stranger-app1.firebasestorage.app",
-  messagingSenderId: "824857382690",
-  appId: "1:824857382690:web:6b1f6eb3f4bd3a0aec5f7b",
-  measurementId: "G-LKZGFQBC1F"
+"Add Yours"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-const appId = 'stranger-app-v1';
+const appId = 'add yours';
 
 // ====================================
 // CRITICAL FIX: CONSISTENT ROOM ID
