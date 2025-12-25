@@ -152,7 +152,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-const appId = 'add yours';
+const appId = 'stranger-app-v1';
 
 // ====================================
 // CRITICAL FIX: CONSISTENT ROOM ID
