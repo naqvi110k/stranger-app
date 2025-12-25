@@ -114,7 +114,7 @@
  * @state {Object|null} selectedChat - Currently viewed chat
  */
 import React, { useState, useEffect, useRef } from 'react';
-const NOTIFICATION_SOUND = new Audio("../public/girl-hey-ringtone.mp3");
+const NOTIFICATION_SOUND = new Audio("/girl-hey-ringtone.mp3");
 import { initializeApp } from 'firebase/app';
 import { 
   getAuth, 
