@@ -168,30 +168,5 @@ Run the host command:
 npm run dev -- --host
 
 
-
-Check your terminal for the Network URL (e.g., http://192.168.1.5:5173).
-
-Enter that URL in your phone's browser.
-
-🔒 Security
-
-For production, protect your data by adding these rules in the Firebase Console > Firestore > Rules:
-
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    // Only allow signed-in users (even anonymous ones) to read/write
-    match /artifacts/stranger-app-v2/{document=**} {
-      allow read, write: if request.auth != null;
-    }
-  }
-}
-
-
-
-<br />
-
-<div align="center">
-<p>Made with ❤️ by <strong>You</strong></p>
-</div>
+
 
